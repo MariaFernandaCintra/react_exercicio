@@ -71,6 +71,14 @@ function listOrganizador() {
           <TableBody>{listOrganizador}</TableBody>
         </Table>
       </TableContainer>
+      <Button
+      sx={{ mt: 3, mb: 2, backgroundColor: "#AD4596" }}
+      fullWidth
+      variant='contained'
+      component={Link}
+      to="/">   
+        Voltar para home
+      </Button>
     </div>
   )
 }
